@@ -55,12 +55,14 @@
         <div class="panel">
             <p><strong>Definition:</strong> Die Leistung kann von niemandem mehr erbracht werden.</p>
             <p><strong>Beispiel:</strong> Ein bestimmtes Kunstwerk wurde zerstört und kann daher von keinem anderen Künstler nachgebildet werden.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Subjektive Unmöglichkeit</button>
         <div class="panel">
             <p><strong>Definition:</strong> Die Leistung kann vom Schuldner persönlich nicht erbracht werden, aber möglicherweise von einem Dritten.</p>
             <p><strong>Beispiel:</strong> Ein Pianist kann wegen Krankheit ein versprochenes Konzert nicht spielen, aber ein anderer Pianist könnte das Konzert übernehmen.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Anfängliche Unmöglichkeit</button>
@@ -68,6 +70,7 @@
             <p><strong>Definition:</strong> Die Unmöglichkeit besteht bereits vor Vertragsschluss.</p>
             <p><strong>Rechtsfolge:</strong> Der Vertrag bleibt wirksam, aber der Schuldner wird von seiner Leistungspflicht befreit.</p>
             <p><strong>Beispiel:</strong> Ein bereits gestohlenes Auto wird verkauft.</p>
+            <p><strong>Einschlägige Norm:</strong> § 311a Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Nachträgliche Unmöglichkeit</button>
@@ -75,12 +78,14 @@
             <p><strong>Definition:</strong> Die Unmöglichkeit tritt erst nach Vertragsschluss ein.</p>
             <p><strong>Rechtsfolge:</strong> Der Schuldner wird von seiner Leistungspflicht befreit, aber möglicherweise Schadensersatzpflicht.</p>
             <p><strong>Beispiel:</strong> Ein Auto wird nach dem Verkauf gestohlen.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Absolute Fixschuld</button>
         <div class="panel">
             <p><strong>Definition:</strong> Die Leistung muss zu einem bestimmten Zeitpunkt erbracht werden, sonst ist sie unmöglich.</p>
             <p><strong>Beispiel:</strong> Ein Konzert, das zu einem festgelegten Termin stattfinden sollte.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Gattungsschuld und Stückschuld</button>
@@ -88,6 +93,7 @@
             <p><strong>Gattungsschuld:</strong> Unmöglichkeit tritt erst ein, wenn die gesamte Gattung untergeht.</p>
             <p><strong>Stückschuld:</strong> Unmöglichkeit tritt ein, wenn das konkrete Stück untergeht.</p>
             <p><strong>Beispiel:</strong> Verkauf einer bestimmten Flasche Wein im Gegensatz zu einer Flasche aus einer Serie.</p>
+            <p><strong>Einschlägige Norm:</strong> § 243 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Praktische Unmöglichkeit</button>
@@ -95,44 +101,41 @@
             <p><strong>Definition:</strong> Die Leistung ist theoretisch möglich, aber der Aufwand ist unzumutbar.</p>
             <p><strong>Rechtsfolge:</strong> Der Schuldner kann die Leistung verweigern.</p>
             <p><strong>Beispiel:</strong> Ein wertvoller Ring fällt in einen tiefen See.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 2 BGB</p>
         </div>
 
         <button class="accordion">Persönliche Unmöglichkeit</button>
         <div class="panel">
             <p><strong>Definition:</strong> Die Erbringung der Leistung ist für den Schuldner persönlich unzumutbar, z.B. aus moralischen oder ethischen Gründen.</p>
             <p><strong>Beispiel:</strong> Ein Arzt weigert sich, eine lebensgefährliche Operation durchzuführen.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 3 BGB</p>
         </div>
 
         <h2>Gründe für den Eintritt der Unmöglichkeit</h2>
         <button class="accordion">Zerstörung der Sache</button>
         <div class="panel">
             <p><strong>Beispiel:</strong> Das verkaufte Auto wird gestohlen oder das gemietete Haus brennt ab.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Tod oder Krankheit des Schuldners</button>
         <div class="panel">
             <p><strong>Beispiel:</strong> Ein Künstler, der eine bestimmte Performance erbringen sollte, verstirbt oder erkrankt schwer.</p>
+            <p><strong>Einschlägige Norm:</strong> § 275 Abs. 1 BGB</p>
         </div>
 
         <button class="accordion">Untergang der gesamten Gattung bei Gattungsschuld</button>
         <div class="panel">
             <p><strong>Beispiel:</strong> Alle Einheiten einer verkauften Produktserie werden zerstört.</p>
-        </div>
-
-        <button class="accordion">Unmöglichkeit wegen rechtlicher Hindernisse</button>
-        <div class="panel">
-            <p><strong>Beispiel:</strong> Ein Lieferant kann eine Ware nicht liefern, weil ein Exportverbot verhängt wurde.</p>
-        </div>
-
-        <button class="accordion">Nicht rechtzeitige Erbringung bei absoluter Fixschuld</button>
-        <div class="panel">
-            <p><strong>Beispiel:</strong> Ein Catering-Service liefert das Essen nach der Hochzeit, wodurch die Leistung ihren Zweck verfehlt.</p>
+            <p><strong>Einschlägige Norm:</strong> § 243 Abs. 1 BGB</p>
         </div>
     </div>
 
     <script>
         var acc = document.getElementsByClassName("accordion");
-        for (var i = 0; i < acc.length; i++) {
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
             acc[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
